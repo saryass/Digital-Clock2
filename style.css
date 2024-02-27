@@ -1,0 +1,27 @@
+body {
+    background-image: url(https://as2.ftcdn.net/v2/jpg/05/68/63/11/1000_F_568631153_ygTLlsjLeVtMrGDSUbqia6VD2GsdbHJx.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+#clock-container {
+    /* border: 2px solid black; */
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock {
+    /* border: 1px solid black; */
+    text-align: center;
+    width: fit-content;
+    font-size: 10em;
+    backdrop-filter: blur(6px);
+    color: rgb(2, 2, 2);
+    border-radius: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
